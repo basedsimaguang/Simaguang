@@ -1,5 +1,44 @@
-body {
-    background-color: blue;
-    color: red;
-    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+
 }
+
+body {
+
+
+
+    padding: 20px;
+    width: 100vw;
+    animation: changeBg 10s linear infinite;
+    background-color: #CAA5F8;
+    color: black;
+    font-size: small;
+    font-weight: normal;
+    text-align: center;
+}
+
+img{
+    width: 100;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/* @keyframes changeBg {
+    0% {
+        background-color: #FF8000;
+    }
+    50%{
+        background-color: #FFC500;
+    }
+    100% {
+        background-color: #FF8000;
+    }
+
+} */
